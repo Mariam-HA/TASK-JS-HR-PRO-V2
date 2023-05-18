@@ -62,3 +62,10 @@ function getmanger(managers) {
   });
 }
 console.log(getmanger());
+
+// part4
+// const logNames = (name) => {
+//     name.array.forEach(element => {
+
+//     });
+// };
