@@ -44,7 +44,7 @@ console.log(manager1.salaryIncrease(1000));
 
 // step 3
 
-const employees = new Employee();
+//const employees = new Employee();
 
 function getemployees(employees) {
   employeesJSON.map((employees) => {
@@ -56,13 +56,9 @@ console.log(getemployees());
 console.log(employeesJSON);
 console.log(managersJSON);
 
-// const getemployees1 = {
-//  Employee.
-// }
-
-// function getmanger(managers) {
-//   managersJSON.map((managers) => {
-//     return managers;
-//   });
-// }
-//console.log()
+function getmanger(managers) {
+  managersJSON.map((managers) => {
+    return managers;
+  });
+}
+console.log(getmanger());
